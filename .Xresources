@@ -1,0 +1,361 @@
+URxvt.letterSpace: -1
+!urxvt.font: xft:DejaVu Sans Mono:size=12
+!urxvt.letterSpace: -1
+URxvt.font: xft:monospace:size=13
+URxvt.perl-ext-common: default,matcher,tabbed,keyboard-select,clipboard...
+!URxvt.keysym.M-S-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+!URxvt.perl-ext-common: default,matcher,...
+URxvt.url-launcher: /usr/bin/x-www-browser
+URxvt.matcher.button: 2
+URxvt.tabbed.tabbar-fg: 17
+URxvt.tabbed.tabbar-bg: 16
+URxvt.tabbed.tab-fg: 27
+URxvt.tabbed.tab-bg: 16
+URxvt.scrollBar: true
+URxvt.skipScroll: true
+URxvt.saveLines: 10000
+URxvt.visualBell: true
+URxvt.clipboard.copycmd:  xsel -ib
+URxvt.clipboard.pastecmd: xsel -ob
+URxvt*depth: 32
+!! Base16 Monokai
+!! Scheme: Wimer Hazenberg (http://www.monokai.nl)
+!
+!URxvt*background:                 [90]#000
+!URxvt*foreground:                 [90]#f8f8f2
+!URxvt*cursorColor:                    #f8f8f2
+!
+!URxvt*scrollColor:                    #f8f8f2
+!URxvt*highlightColor:                 #49483e
+!URxvt*highlightTextColor:             #a59f85
+!
+!URxvt*color0:                         #272822
+!URxvt*color8:                         #75715e
+!URxvt*color1:                         #f94692
+!URxvt*color9:                         #f94692
+!URxvt*color2:                         #a6e22e
+!URxvt*color10:                        #a6e22e
+!URxvt*color3:                         #f4bf75
+!URxvt*color11:                        #f4bf75
+!URxvt*color4:                         #66d9ef
+!URxvt*color12:                        #66d9ef
+!URxvt*color5:                         #ae81ff
+!URxvt*color13:                        #ae81ff
+!URxvt*color6:                         #a1efe4
+!URxvt*color14:                        #a1efe4
+!URxvt*color7:                         #f8f8f2
+!URxvt*color15:                        #f9f8f5
+!
+!URxvt*color16:                        #fd971f
+!URxvt*color17:                        #cc6633
+!URxvt*color18:                        #383830
+!URxvt*color19:                        #49483e
+!URxvt*color20:                        #a59f85
+!URxvt*color21:                        #f5f4f1
+!!FMT Include, StatusLine, ErrorMsg
+!#define _colorBD       #ffcfaf
+!#define _colorUL       #ccdc90
+!#define _colorIT       #80d4aa
+!!!TXT Normal, Normal, Cursor
+!#define _foreground    #dcdccc
+!#define _background    #000000
+!#define _cursorColor   #8faf9f
+!
+! Base16 Flat
+! Scheme: Chris Kempson (http://chriskempson.com)
+
+!URxvt*background:                     #000000
+!URxvt*foreground:                     #e0e0e0
+!URxvt*cursorColor:                    #e0e0e0
+!
+!URxvt*scrollColor:                    #e0e0e0
+!URxvt*highlightColor:                 #7F8C8D
+!URxvt*highlightTextColor:             #BDC3C7
+!
+!URxvt*color0:                         #2C3E50
+!URxvt*color1:                         #E74C3C
+!URxvt*color2:                         #2ECC71
+!URxvt*color3:                         #F1C40F
+!URxvt*color4:                         #3498DB
+!URxvt*color5:                         #9B59B6
+!URxvt*color6:                         #1ABC9C
+!URxvt*color7:                         #e0e0e0
+!URxvt*color8:                         #95A5A6
+!URxvt*color9:                         #E74C3C
+!URxvt*color10:                        #2ECC71
+!URxvt*color11:                        #F1C40F
+!URxvt*color12:                        #3498DB
+!URxvt*color13:                        #9B59B6
+!URxvt*color14:                        #1ABC9C
+!URxvt*color15:                        #ECF0F1
+!
+!URxvt*color16:                        #E67E22
+!URxvt*color17:                        #be643c
+!URxvt*color18:                        #34495E
+!URxvt*color19:                        #7F8C8D
+!URxvt*color20:                        #BDC3C7
+!URxvt*color21:                        #f5f5f5
+
+! Base16 Isotope
+! Scheme: Jan T. Sott
+
+URxvt*background:                     [90]#000000
+URxvt*foreground:                     [90]#d0d0d0
+URxvt*cursorColor:                    #d0d0d0
+
+URxvt*scrollColor:                    #d0d0d0
+URxvt*highlightColor:                 #606060
+URxvt*highlightTextColor:             #c0c0c0
+
+URxvt*color0:                         #000000
+URxvt*color1:                         #ff0000
+URxvt*color9:                         #ff0000
+URxvt*color2:                         #33ff00
+URxvt*color10:                        #33ff00
+URxvt*color3:                         #ff9900
+URxvt*color11:                        #ff9900
+!URxvt*color3:                         #ff0099
+!URxvt*color11:                        #ff0099
+URxvt*color4:                         #0066ff
+URxvt*color12:                        #0066ff
+URxvt*color5:                         #cc00ff
+URxvt*color13:                        #cc00ff
+URxvt*color6:                         #00ffff
+URxvt*color14:                        #00ffff
+URxvt*color7:                         #d0d0d0
+URxvt*color8:                         #808080
+URxvt*color15:                        #ffffff
+
+URxvt*color16:                        #ff9900
+URxvt*color17:                        #3300ff
+URxvt*color18:                        #404040
+URxvt*color19:                        #606060
+URxvt*color20:                        #c0c0c0
+URxvt*color21:                        #e0e0e0
+
+!!! Base16 Ashes
+!!! Scheme: Jannik Siebert (https://github.com/janniks)
+!!
+!URxvt*background:                     [90]#1C2023
+!URxvt*foreground:                     [90]#C7CCD1
+!URxvt*cursorColor:                    #C7CCD1
+!
+!URxvt*scrollColor:                    #C7CCD1
+!URxvt*highlightColor:                 #565E65
+!URxvt*highlightTextColor:             #ADB3BA
+!
+!URxvt*color0:                         #1C2023
+!URxvt*color1:                         #C7AE95
+!URxvt*color2:                         #95C7AE
+!URxvt*color3:                         #AEC795
+!URxvt*color4:                         #AE95C7
+!URxvt*color5:                         #C795AE
+!URxvt*color6:                         #95AEC7
+!URxvt*color7:                         #C7CCD1
+!URxvt*color8:                         #747C84
+!URxvt*color9:                         #C7AE95
+!URxvt*color10:                        #95C7AE
+!URxvt*color11:                        #AEC795
+!URxvt*color12:                        #AE95C7
+!URxvt*color13:                        #C795AE
+!URxvt*color14:                        #95AEC7
+!URxvt*color15:                        #F3F4F5
+!
+!URxvt*color16:                        #C7C795
+!URxvt*color17:                        #C79595
+!URxvt*color18:                        #393F45
+!URxvt*color19:                        #565E65
+!URxvt*color20:                        #ADB3BA
+!URxvt*color21:                        #DFE2E5
+!!BLK Cursor
+!#define _color0        #030200
+!#define _color8        #030200
+!!RED Tag
+!#define _color1        #e50022
+!#define _color9        #e50022
+!!GRN SpecialKey
+!#define _color2        #89f51d
+!#define _color10       #89f51d
+!!YEL Keyword
+!#define _color3        #d3c116
+!#define _color11       #d3c116
+!!BLU Number
+!#define _color4        #9695ae
+!#define _color12       #9695ae
+!!MAG Precondit
+!#define _color5        #a6013c
+!#define _color13       #a6013c
+!!CYN Float
+!#define _color6        #71a9c3 
+!#define _color14       #71a9c3
+!!WHT Search
+!#define _color7        #d6d7dc
+!#define _color15       #d6d7dc
+!!FMT Include, StatusLine, ErrorMsg
+!#define _colorBD       #ffcfaf
+!#define _colorUL       #ccdc90
+!#define _colorIT       #80d4aa
+!!TXT Normal, Normal, Cursor
+!#define _foreground    #dcdccc
+!#define _background    #000000
+!#define _cursorColor   #8faf9f
+!URxvt*color0         : _color0
+!URxvt*color1         : _color1
+!URxvt*color2         : _color2
+!URxvt*color3         : _color3
+!URxvt*color4         : _color4
+!URxvt*color5         : _color5
+!URxvt*color6         : _color6
+!URxvt*color7         : _color7
+!URxvt*color8         : _color8
+!URxvt*color9         : _color9
+!URxvt*color10        : _color10
+!URxvt*color11        : _color11
+!URxvt*color12        : _color12
+!URxvt*color13        : _color13
+!URxvt*color14        : _color14
+!URxvt*color15        : _color15
+!URxvt*colorBD        : _colorBD
+!URxvt*colorIT        : _colorIT
+!URxvt*colorUL        : _colorUL
+!URxvt*foreground     : _foreground
+!URxvt*background     : _background
+!URxvt*cursorColor    : _cursorColor
+!XTerm*color0         : _color0
+!XTerm*color1         : _color1
+!XTerm*color2         : _color2
+!XTerm*color3         : _color3
+!XTerm*color4         : _color4
+!XTerm*color5         : _color5
+!XTerm*color6         : _color6
+!XTerm*color7         : _color7
+!XTerm*color8         : _color8
+!XTerm*color9         : _color9
+!XTerm*color10        : _color10
+!XTerm*color11        : _color11
+!XTerm*color12        : _color12
+!XTerm*color13        : _color13
+!XTerm*color14        : _color14
+!XTerm*color15        : _color15
+!XTerm*colorBD        : _colorBD
+!XTerm*colorIT        : _colorIT
+!XTerm*colorUL        : _colorUL
+!XTerm*foreground     : _foreground
+!XTerm*background     : _background
+!XTerm*cursorColor    : _cursorColor
+!! Black color that will not be affected by bold highlighting.
+!*.color66: #050814
+!*color66:  #050814
+!!BLK Cursor
+!#define _color0        #030200
+!#define _color8        #030200
+!!RED Tag
+!#define _color1        #e50022
+!#define _color9        #e50022
+!!GRN SpecialKey
+!#define _color2        #89f51d
+!#define _color10       #89f51d
+!!YEL Keyword
+!#define _color3        #d3c116
+!#define _color11       #d3c116
+!!BLU Number
+!#define _color4        #9695ae
+!#define _color12       #9695ae
+!!MAG Precondit
+!#define _color5        #a6013c
+!#define _color13       #a6013c
+!!CYN Float
+!#define _color6        #71a9c3 
+!#define _color14       #71a9c3
+!!WHT Search
+!#define _color7        #d6d7dc
+!#define _color15       #d6d7dc
+!!FMT Include, StatusLine, ErrorMsg
+!#define _colorBD       #ffcfaf
+!#define _colorUL       #ccdc90
+!#define _colorIT       #80d4aa
+!!TXT Normal, Normal, Cursor
+!#define _foreground    #dcdccc
+!#define _background    #000000
+!#define _cursorColor   #8faf9f
+!URxvt*color0         : _color0
+!URxvt*color1         : _color1
+!URxvt*color2         : _color2
+!URxvt*color3         : _color3
+!URxvt*color4         : _color4
+!URxvt*color5         : _color5
+!URxvt*color6         : _color6
+!URxvt*color7         : _color7
+!URxvt*color8         : _color8
+!URxvt*color9         : _color9
+!URxvt*color10        : _color10
+!URxvt*color11        : _color11
+!URxvt*color12        : _color12
+!URxvt*color13        : _color13
+!URxvt*color14        : _color14
+!URxvt*color15        : _color15
+!URxvt*colorBD        : _colorBD
+!URxvt*colorIT        : _colorIT
+!URxvt*colorUL        : _colorUL
+!URxvt*foreground     : _foreground
+!URxvt*background     : _background
+!URxvt*cursorColor    : _cursorColor
+!XTerm*color0         : _color0
+!XTerm*color1         : _color1
+!XTerm*color2         : _color2
+!XTerm*color3         : _color3
+!XTerm*color4         : _color4
+!XTerm*color5         : _color5
+!XTerm*color6         : _color6
+!XTerm*color7         : _color7
+!XTerm*color8         : _color8
+!XTerm*color9         : _color9
+!XTerm*color10        : _color10
+!XTerm*color11        : _color11
+!XTerm*color12        : _color12
+!XTerm*color13        : _color13
+!XTerm*color14        : _color14
+!XTerm*color15        : _color15
+!XTerm*colorBD        : _colorBD
+!XTerm*colorIT        : _colorIT
+!XTerm*colorUL        : _colorUL
+!XTerm*foreground     : _foreground
+!XTerm*background     : _background
+!XTerm*cursorColor    : _cursorColor
+!! Black color that will not be affected by bold highlighting.
+!*.color66: #050814
+!*color66:  #050814
+
+!!/* Couleurs Tango */
+!#define _colorBD  #ff3300
+!#define _colorUL  #ccdc90
+!#define _colorIT  #80d4aa
+!URxvt.foreground: [90]#C8C8C8
+!URxvt.background: [90]#010101
+!URxvt.color0:     #2E3436
+!URxvt.color1:     #CC0000
+!URxvt.color2:     #4E9A06
+!URxvt.color3:     #C4A000
+!URxvt.color4:     #3465A4
+!URxvt.color5:     #75507B
+!URxvt.color6:     #06989A
+!URxvt.color7:     #D3D7CF
+!URxvt.color8:     #555753
+!URxvt.color9:     #EF2929
+!URxvt.color10:    #8AE234
+!URxvt.color11:    #FCE94F
+!URxvt.color12:    #729FCF
+!URxvt.color13:    #AD7FA8
+!URxvt.color14:    #34E2E2
+!URxvt.color15:    #EEEEEC
+!
+!!URxvt.font:        xft:Mono:pixelsize=12.5
+!
+!!URxvt.scrollBar:         false
+!URxvt.scrollTtyOutput:   false
+!URxvt.scrollWithBuffer:  true
+!URxvt.scrollTtyKeypress: true
+!
